@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/excursion/static/css/main.9bc2ed94.css",
-    "main.js": "/excursion/static/js/main.f92a2e23.js",
+    "main.js": "/excursion/static/js/main.2da5183b.js",
     "index.html": "/excursion/index.html",
     "main.9bc2ed94.css.map": "/excursion/static/css/main.9bc2ed94.css.map",
-    "main.f92a2e23.js.map": "/excursion/static/js/main.f92a2e23.js.map"
+    "main.2da5183b.js.map": "/excursion/static/js/main.2da5183b.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc2ed94.css",
-    "static/js/main.f92a2e23.js"
+    "static/js/main.2da5183b.js"
   ]
 }
