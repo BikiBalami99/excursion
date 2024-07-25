@@ -1,18 +1,21 @@
 import React from "react";
+import styles from "./styles.module.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.background}>
       <header>
-        <h1>Discover hidden places in the world around you</h1>
+        <h1 className={styles.title}>
+          Discover hidden places in the world around you
+        </h1>
         <a href="https://www.google.com">Download Excursion</a>
       </header>
       <main>
         <video src="/assets/excursion-project-video.mp4" autoPlay loop muted>
           Failed to play video
         </video>
-        <h2>Your personal travel guide</h2>
-        <p>
+        <h2 className={styles.subtitle}>Your personal travel guide</h2>
+        <p className={styles.description}>
           Excursion remembers places you like, and recommends new points of
           interest around you.
         </p>
@@ -23,7 +26,7 @@ function App() {
       </main>
       <footer>
         <img src="assets/phone-logo.webp" alt="phone logo" />
-        <h2>Coming Soon for iPhone and Android</h2>
+        <h2 className={styles.subtitle}>Coming Soon for iPhone and Android</h2>
         <a href="https://www.apple.com/app-store/">
           Download Excursion (Coming Soon)
         </a>
